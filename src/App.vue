@@ -28,8 +28,9 @@
 import appInputForm from "@/components/AppInputForm";
 import appResume from "@/components/AppResume";
 import appComments from "@/components/AppComments";
-const urlListComments='https://jsonplaceholder.typicode.com/comments?_limit=42'
-const urlDB='https://vue-with-http-progect-default-rtdb.europe-west1.firebasedatabase.app/resume'
+import {urlListComments,urlDB} from "../keys/private"
+// const urlListComments='https://jsonplaceholder.typicode.com/comments?_limit=42'
+// const urlDB='https://vue-with-http-progect-default-rtdb.europe-west1.firebasedatabase.app/resume'
 export default {
   mounted() {
     this.loudResume()
